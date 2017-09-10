@@ -1,0 +1,10 @@
+/home/ken/Documents/dqcsweb/bin/Debug/netcoreapp2.0/dqcsweb.deps.json
+/home/ken/Documents/dqcsweb/bin/Debug/netcoreapp2.0/dqcsweb.runtimeconfig.json
+/home/ken/Documents/dqcsweb/bin/Debug/netcoreapp2.0/dqcsweb.runtimeconfig.dev.json
+/home/ken/Documents/dqcsweb/bin/Debug/netcoreapp2.0/dqcsweb.dll
+/home/ken/Documents/dqcsweb/bin/Debug/netcoreapp2.0/dqcsweb.pdb
+/home/ken/Documents/dqcsweb/obj/Debug/netcoreapp2.0/dqcsweb.csproj.CoreCompileInputs.cache
+/home/ken/Documents/dqcsweb/obj/Debug/netcoreapp2.0/dqcsweb.AssemblyInfoInputs.cache
+/home/ken/Documents/dqcsweb/obj/Debug/netcoreapp2.0/dqcsweb.AssemblyInfo.cs
+/home/ken/Documents/dqcsweb/obj/Debug/netcoreapp2.0/dqcsweb.dll
+/home/ken/Documents/dqcsweb/obj/Debug/netcoreapp2.0/dqcsweb.pdb
