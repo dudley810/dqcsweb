@@ -9,22 +9,22 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Dudley's Web</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Dudley's Web Site</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Blog">Blog</a></li>
-                        <li><a href="https://www.youtube.com/user/dudley810" target="_blank">Videos</a></li>
-                        <li><a asp-area="" asp-controller="ContactUs" asp-action="Index">Contact</a></li>
+                        <li><a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Blog">Blog</a></li>
+                        <li><a class="nav-link text-light" href="https://www.youtube.com/user/dudley810" target="_blank">Videos</a></li>
+                        <li><a class="nav-link text-light" asp-area="" asp-controller="ContactUs" asp-action="Index">Contact</a></li>
                     </ul>
                     <div class="nav navbar-nav navbar-right">
-                        <b>Follow Me on&nbsp;&nbsp;</b>
+                        <b class="text-light">Follow Me on&nbsp;&nbsp;</b>
                         <a href="https://www.facebook.com/dudley810"><img src="~/images/facebook.png" width="32" height="32" /></a>
                         <a href="https://www.twitter.com/dudley810"><img src="~/images/twitter.jpg" width="32" height="32" /></a>
                         <a href="https://www.youtube.com/user/dudley810"><img src="~/images/youtube.jpg" width="32" height="32" /></a>
