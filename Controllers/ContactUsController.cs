@@ -1,11 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using dqcsweb.Models;
+using Microsoft.AspNetCore.Mvc;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using dqcsweb.Models;
 
 namespace dqcsweb.Controllers
 {
@@ -41,7 +42,7 @@ namespace dqcsweb.Controllers
                 msg.AddTos(recipients);
 
                 msg.SetSubject("Web-email: " + cum.Subject);
-                
+
                 StringBuilder sb = new StringBuilder("<html><body><table border='0'  cellspacing='0' cellpadding='0'>");
                 sb.Append("<tr><td width='8%'><b>Phone:</b></td><td width='92%'>");
                 sb.Append(cum.Phone);
