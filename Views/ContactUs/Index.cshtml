@@ -3,15 +3,19 @@
     ViewBag.Title = "Contact Me";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@section IncludeHead
+    {
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+}
 <div class="row">
     <div class="col-md-6">
         <br />
         <h3>Contact Me</h3>
         <br />
-         <p></p><b>For general questions, please fill out this form:</b></p>
+        <p></p><b>For general questions, please fill out this form:</b></p>
         <b style="color: #FF0000">@ViewBag.SentMessage</b>
         <br />
-        @using (Html.BeginForm("SendEmail","ContactUs"))
+        @using (Html.BeginForm("SendEmail", "ContactUs"))
         {
             @Html.AntiForgeryToken()
             <div class="form-horizontal">
@@ -19,7 +23,7 @@
                 <div class="form-group">
                     @Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
                     <div class="col-md-6">
-                        @Html.TextBoxFor(model => model.Name, new { style = "width:350px"})
+                        @Html.TextBoxFor(model => model.Name, new { style = "width:350px" })
                         @Html.ValidationMessageFor(model => model.Name)
                     </div>
                 </div>
@@ -61,10 +65,10 @@
                     </div>
                 </div>
             </div>
+            <div class="g-recaptcha" data-sitekey="6Lehs2UUAAAAAC7PbkEZ0aQj7NoDv4oVBW9fHK74"></div>
         }
     </div>
     <div class="col-sm-4">
-        <img src="../images/kencontact.jpg" class="img-responsive"/>
+        <img src="../images/kencontact.jpg" width="450" height="600"  />
     </div>
 </div>
-

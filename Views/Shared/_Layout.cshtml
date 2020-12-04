@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Ken Dudley's Web Site</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("IncludeHead", required: false)
 </head>
 <body>
     <header>
